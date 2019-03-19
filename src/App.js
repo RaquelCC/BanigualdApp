@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import fire  from './config/Fire';
+import fire  from './components-firebase/Fire';
 import Login from './components-firebase/Login';
 import Home from './components-firebase/Home';
 
@@ -12,7 +12,7 @@ class App extends Component {
     }
   }
 
-  ComponentDidMount(){
+  componentDidMount(){
     this.authListener();
   }
 
