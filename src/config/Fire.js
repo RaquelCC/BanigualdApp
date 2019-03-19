@@ -11,9 +11,8 @@ const config = {
     storageBucket: "banigualdapp.appspot.com",
     messagingSenderId: "1035650502228"
 };
-firebase.initializeApp(config);
+const fire = firebase.initializeApp(config);
+const store = firebase.firestore().settings(settings);
 
-firebase.firestore().settings(settings);
-
-export default firebase;
-
+export default fire;
+export default store;
