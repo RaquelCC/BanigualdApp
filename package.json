@@ -1,0 +1,19 @@
+{
+  "name": "scl007-hackathon-fundacion-banigualdad",
+  "version": "1.0.0",
+  "description": "a web app that help Banigualdad fundation ",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpabarca/SCL007-Hackathon-Fundacion-Banigualdad.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mpabarca/SCL007-Hackathon-Fundacion-Banigualdad/issues"
+  },
+  "homepage": "https://github.com/mpabarca/SCL007-Hackathon-Fundacion-Banigualdad#readme"
+}
