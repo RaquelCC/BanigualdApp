@@ -4,6 +4,8 @@ import fire  from './Fire';
 import Login from './Login';
 import Home from './Home';
 
+import './css/login.css';
+
 class Auth extends Component {
   constructor(props){
     super(props);
