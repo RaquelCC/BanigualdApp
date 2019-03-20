@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import fire from './Fire';
+import logo from './logo.png';
 
 class Login extends Component {
     constructor(props) {
@@ -27,15 +28,18 @@ class Login extends Component {
     render() {
       return (
         <div className="container">
-          <form>
+          <div>
+            <img src={logo} className="Applogo"/>
+          </div>
+          <form className="row">
             <div class="form-group">
               <label for="exampleInputEmail1">Email address</label>
               <input value={this.state.email} onChange={this.handleChange} type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
             </div>
-            <div class="form-group">
+            <form className="row">
               <label for="exampleInputPassword1">Password</label>
               <input value={this.state.password} onChange={this.handleChange} type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Password" />
-            </div>
+            </form>
             <button type="submit" onClick={this.login} class="btn btn-primary">Login</button>
           </form>
         
