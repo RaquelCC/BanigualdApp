@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
 import './App.css';
+import Auth from './components-firebase/Auth';
 
 class App extends Component {
+  
+ 
 
   render() {
     return (
-      <div className="App">
-        
+      <div className="App"> 
+        <Auth />     
       </div>
     );
   }
