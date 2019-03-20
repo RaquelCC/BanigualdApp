@@ -6,6 +6,7 @@
   "main": "index.js",
   "dependencies": {
     "firebase": "^5.9.0",
+    "firebaseui": "^3.5.2",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-scripts": "2.1.8"
@@ -35,4 +36,3 @@
     "not op_mini all"
   ]
 }
-
