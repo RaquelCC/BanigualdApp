@@ -8,6 +8,7 @@ import Profile from './components-profile/profile';
 import 'materialize-css/dist/css/materialize.min.css';
 
 class App extends Component {
+  /*
   constructor(props){
     super(props);
     this.state = {
@@ -31,7 +32,7 @@ class App extends Component {
  
     })
   }
- 
+ */
   render() {
 
     return (
