@@ -30,15 +30,15 @@ class Login extends Component {
         <div id="view-login">
           <div className="container" id="login-box">
             <div>
-              <img src={logo} className="app-logo"/>
+              <img src={logo} id="app-logo"/>
             </div>
 
             <form className="row">
-              <div className="input-field col s12">
+              <div className="input-field col s12" id="input-user">
                 <input value={this.state.email} onChange={this.handleChange} type="text" name="email" className="autocomplete" id="input" aria-describedby="emailHelp" placeholder="Nombre"/>
               </div>
-              <div className="input-field col s12">
-                <input value={this.state.password} onChange={this.handleChange} type="text" name="password" className="autocomplete" id="pass" placeholder="Contraseña"/>
+              <div className="input-field col s12" id="input-pass">
+                <input value={this.state.password} onChange={this.handleChange} type="password" name="password" className="autocomplete" id="pass" placeholder="Contraseña"/>
               </div>
               <a onClick={this.login} id="button-login" className="waves-effect waves-light btn">INGRESAR</a>
             </form>
