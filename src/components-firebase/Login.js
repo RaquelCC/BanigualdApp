@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import fire from './Fire';
+import logo from './logo.png';
 
 class Login extends Component {
     constructor(props) {
@@ -26,21 +27,24 @@ class Login extends Component {
   
     render() {
       return (
-         <div className="col-md-6">
-         <form>
-        <div class="form-group">
-         <label for="exampleInputEmail1">Email address</label>
-         <input value={this.state.email} onChange={this.handleChange} type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
-         <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        <div id="view-login">
+          <div className="container" id="login-box">
+            <div>
+              <img src={logo} id="app-logo"/>
+            </div>
+
+            <form className="row">
+              <div className="input-field col s12" id="input-user">
+                <input value={this.state.email} onChange={this.handleChange} type="text" name="email" className="autocomplete" id="input" aria-describedby="emailHelp" placeholder="Nombre"/>
+              </div>
+              <div className="input-field col s12" id="input-pass">
+                <input value={this.state.password} onChange={this.handleChange} type="password" name="password" className="autocomplete" id="pass" placeholder="Contraseña"/>
+              </div>
+              <a onClick={this.login} id="button-login" className="waves-effect waves-light btn">INGRESAR</a>
+            </form>
+
+          </div>
         </div>
-         <div class="form-group">
-        <label for="exampleInputPassword1">Password</label>
-        <input value={this.state.password} onChange={this.handleChange} type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Password" />
-        </div>
-        <button type="submit" onClick={this.login} class="btn btn-primary">Login</button>
-   </form>
- 
- </div>
     );
   }
 }
