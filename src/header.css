@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+
+.title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+
+}
+.nav-extended{
+    background-color: #0082D8;
+}
+.app{
+    color:#292929;
+}
+.tab{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px !important;
+    line-height: 16px ;
+    text-align: center ;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+}
+.categories{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.nav-extended{
+    width: 100%;
+}
