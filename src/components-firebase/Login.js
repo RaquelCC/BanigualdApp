@@ -27,22 +27,23 @@ class Login extends Component {
   
     render() {
       return (
-        <div className="container">
-          <div>
-            <img src={logo} className="Applogo"/>
-          </div>
-          <form className="row">
-            <div class="form-group">
-              <label for="exampleInputEmail1">Email address</label>
-              <input value={this.state.email} onChange={this.handleChange} type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
+        <div id="view-login">
+          <div className="container" id="login-box">
+            <div>
+              <img src={logo} className="app-logo"/>
             </div>
+
             <form className="row">
-              <label for="exampleInputPassword1">Password</label>
-              <input value={this.state.password} onChange={this.handleChange} type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Password" />
+              <div className="input-field col s12">
+                <input value={this.state.email} onChange={this.handleChange} type="text" name="email" className="autocomplete" id="input" aria-describedby="emailHelp" placeholder="Nombre"/>
+              </div>
+              <div className="input-field col s12">
+                <input value={this.state.password} onChange={this.handleChange} type="text" name="password" className="autocomplete" id="pass" placeholder="Contraseña"/>
+              </div>
+              <a onClick={this.login} id="button-login" className="waves-effect waves-light btn">INGRESAR</a>
             </form>
-            <button type="submit" onClick={this.login} class="btn btn-primary">Login</button>
-          </form>
-        
+
+          </div>
         </div>
     );
   }
