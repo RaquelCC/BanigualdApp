@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
 import Auth from './components-firebase/Auth';
+/*
 import Entrepreneur from './components-entrepreneur/Emprendedores';
 import Profile from './components-profile/profile';
-
+*/
 import 'materialize-css/dist/css/materialize.min.css';
 
 class App extends Component {
@@ -31,13 +32,11 @@ class App extends Component {
     })
   }
  
-
   render() {
 
     return (
       <div className="App"> 
         <Auth  />  
-        <Entrepreneur/> 
       </div>
     );
   }
