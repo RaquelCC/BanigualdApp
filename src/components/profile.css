@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+
+.profile-container {
+    margin-bottom: 5px;
+    color: #979797;
+    font-family: 'Roboto', sans-serif;
+}
+
+.profile-container p {
+    margin: 0;
+}
+
+.overlay {
+    height: 92px;
+    width: 360px;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 10;
+    position: relative;
+    bottom: 97px;
+    padding: 0 !important;
+}
+
+.line {
+    width: 290px;
+    height: 0px;
+    border: 0.4px solid #CCCCCC;
+    display: inline-block;
+}
+
+.container-imagen-emprendedor {
+    height: 360px;
+    width: 360px;
+    padding: 0 !important;
+    margin-bottom: 40px;
+}
+
+.imagen-emprendedor {
+    width: 360px;
+    z-index: 1;
+}
+
+.nombre-emprendedor {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 5px;
+}
+
+.call-icon {
+    z-index: 10;
+    position: relative;
+    bottom: 125px;
+}
+
+.ubicacion {
+    font-size: 12px;
+    color: #ffffff;
+    font-style: normal;
+}
+
+
+.products-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+
+.info-emprendimiento {
+    color: #292929;
+    text-align: center;
+    padding: 10px 37px;
+}
+
+.rubro {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    color: #7DCA28;
+    text-align: center;
+    vertical-align: middle;
+    border: 2px solid #7DCA28;
+    border-radius: 10.5px;
+    width: fit-content;
+    padding: 1px 5px;
+    display: inline-block;
+    margin: auto;
+    margin-right: 5px;
+}
+
+.ciclo {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    color: #0082D8;
+    border: 2px solid #0082D8;
+    border-radius: 10.5px;
+    width: fit-content;
+    padding: 1px 5px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: auto;
+    margin-left: 5px;
+}
+
+.sub-info-emprendedor {
+    display: flex;
+    padding-bottom: 10px !important;
+}
