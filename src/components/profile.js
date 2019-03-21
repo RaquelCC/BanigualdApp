@@ -36,7 +36,7 @@ function Profile(props) { // en las props debería estar el perfil del usuario
                         <p className="nombre-emprendedor">{` ${props.perfil.nombreEmprendedor} `}</p>
                         <p className="ubicacion">{props.perfil.ubicacion}</p>
                     </div>
-                    <img className="call-icon" src={phoneIcon} alt="icon"></img>
+                   <a href={`tel:${props.perfil.contacto.whatsapp}`} ><img className="call-icon" src={phoneIcon} alt="icon"></img></a>
                 </div>
                 <div className="col s12 sub-info-emprendedor center">
                     <div className="rubro"><p>{props.perfil.rubro}</p></div>

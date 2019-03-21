@@ -5,16 +5,15 @@ import Profile from './components/profile';
 import Header from './Header';
 
 const emprendedorPromedio = {
-  nombreEmprendedor: 'Pandita Snorlax',
-  fotoPerfil: 'https://media.karousell.com/media/photos/products/2017/09/06/banpresto_crane_game_pokemon_sun_and_moon_kororin_friends_big_snorlax__small_psyduck__slowpoke__munc_1504685248_126a52d10',
+  nombreEmprendedor: 'Gatito Peludito',
+  fotoPerfil: 'https://i.kym-cdn.com/photos/images/original/000/581/251/5af.jpg',
   nombreEmprendimiento: 'Pelitos Peludos',
   ubicacion: 'Gatomacia',
   contacto: {
     whatsapp: '+569123456789',
-    mail: '',
+    mail: false,
   },
   rubro: 'Lanas',
-  intereses: ['', ''],
   ciclo: 7,
   infoEmprendimiento: 'Vendemos pelitos suaves, trasquilados de ovejitas y alpacas felices.',
   productosOServicios: [
@@ -42,6 +41,14 @@ const emprendedorPromedio = {
 }
 
 class App extends Component {
+  constructor(props){
+    super(props);
+    this.state = {
+      loggedUser: {
+
+      },
+    }
+  }
   render() {
     return (
       <div>
