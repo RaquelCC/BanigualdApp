@@ -3,7 +3,7 @@ import './App.css';
 import Auth from './components-firebase/Auth';
 
 import 'materialize-css/dist/css/materialize.min.css';
-import Emprendedores from './components/Emprendedores'
+import Entrepreneur from './components-entrepreneur/Emprendedores'
 
 class App extends Component {
   
@@ -13,7 +13,7 @@ class App extends Component {
     return (
       <div className="App"> 
         <Auth  />  
-        <Emprendedores/>   
+        <Entrepreneur/>   
       </div>
     );
   }
