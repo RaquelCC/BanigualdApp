@@ -29,8 +29,11 @@ height: 70px;
 }
 
 .header{
-  margin: 20px;
+  margin: 20px 20px 20px 13px;
   color: #292929;
+  font-weight: bold;
+
+  font-size: 18px; 
 }
 
 .card.horizontal .card-stacked {
@@ -69,6 +72,8 @@ height: 70px;
   font-size: 14px; 
   overflow: hidden;
   color: #545454;
+  margin-right: 2px;
+  padding-right: 8px;
   
 
 }
@@ -81,7 +86,7 @@ height: 70px;
   border-radius: 20px;
   overflow: hidden;
   font-weight: bold;
-
+  width: 80px;
   
 }
 
@@ -92,16 +97,15 @@ height: 70px;
   display: flex;
 }
 
-
-
 .row .col.offset-s4 {
-  margin-left: 8%;
-  margin-right: 3%;
+  margin-left: 0;
+  margin-right: 0px;
+
+  text-align: center;
 }
 
 .row .col.s8 {
-  width: 66.6666666667%;
+  width: 65%;
   margin-left: 0;
-  left: auto;
-  right: auto;
+  
 }

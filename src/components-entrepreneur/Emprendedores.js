@@ -46,7 +46,7 @@ class Emprendedores extends Component {
                                     {/* <div className='col s6 nombre-emprendedores'>{this.state.Nombre_Emprendedor}</div> */}
                                     <div className="col offset-s4 descripcion-categoria">Cosmética</div>
                                 </div>
-                                <div className='ciudad-emprendedor'>San Antonio</div> {this.state.prueba}
+                                <div className='ciudad-emprendedor'>Renca</div> {this.state.prueba}
                                 <div className='descripcion-emprendedores'><p>Vendo marcas no testeadas en animales, Productos sanos...</p></div>
                             </div>
                         </div>
@@ -129,24 +129,7 @@ class Emprendedores extends Component {
                 </div>
                 {/* /FIN CARD/ */}
 
-                   {/* /INICIO CARD/ */}
-                <div className="card horizontal">
-                    <div className="card-image">
-                        <img src="https://lorempixel.com/100/190/nature/6" alt="" className='circle responsive-img'/>
-                    </div>
-                        <div className="card-stacked">
-                             <div className="card-content">
-                                <div className='nombre-emprendedores'></div> 
-                                <div className="row">
-                                    <div className='col s8 nombre-emprendedores'>{this.state.Nombre_Emprendedor}</div>
-                                    <div className="col offset-s4 descripcion-categoria">Cosmética</div>
-                                </div>
-                                <div className='ciudad-emprendedor'>Las Condes</div> {this.state.prueba}
-                                <div className='descripcion-emprendedores'><p>Vende marcas no testeadas en animales...</p></div>
-                            </div>
-                        </div>
-                </div>
-                {/* /FIN CARD/ */}
+                
 
                                     
 
