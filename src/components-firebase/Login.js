@@ -35,7 +35,7 @@ class Login extends Component {
 
             <form className="row">
               <div className="input-field col s12" id="input-user">
-                <input value={this.state.email} onChange={this.handleChange} type="text" name="email" className="autocomplete" id="input" aria-describedby="emailHelp" placeholder="Nombre"/>
+                <input value={this.state.email} onChange={this.handleChange} type="text" name="email" className="autocomplete" id="input" aria-describedby="emailHelp" placeholder="Correo Electrónico"/>
               </div>
               <div className="input-field col s12" id="input-pass">
                 <input value={this.state.password} onChange={this.handleChange} type="password" name="password" className="autocomplete" id="pass" placeholder="Contraseña"/>
