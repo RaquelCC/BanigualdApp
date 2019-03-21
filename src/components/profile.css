@@ -17,7 +17,7 @@
     background: rgba(0, 0, 0, 0.6);
     z-index: 10;
     position: relative;
-    bottom: 97px;
+    top: 268px;
     padding: 0 !important;
 }
 
@@ -33,6 +33,9 @@
     width: 360px;
     padding: 0 !important;
     margin-bottom: 40px;
+    /* background-image: url('https://www.banigualdad.cl/wp-content/uploads/2018/06/alice-peailillo.jpg'); */
+    background-size: cover;
+    background-position: center;
 }
 
 .imagen-emprendedor {
@@ -54,7 +57,7 @@
 .call-icon {
     z-index: 10;
     position: relative;
-    bottom: 125px;
+    top: 235px;
 }
 
 .ubicacion {
