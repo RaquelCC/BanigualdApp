@@ -1,7 +1,4 @@
 import * as firebase from 'firebase';
-import firestore from 'firebase/firestore'
-
-const settings = {timestampsInSnapshots: true};
 
 const config = {
     apiKey: "AIzaSyB4TthlNF3Dw5lAqKjEsY2qu00paaokZ28",
@@ -11,9 +8,6 @@ const config = {
     storageBucket: "banigualdapp.appspot.com",
     messagingSenderId: "1035650502228"
 };
-firebase.initializeApp(config);
+const fire = firebase.initializeApp(config);
 
-firebase.firestore().settings(settings);
-
-export default firebase;
-
+export default fire;
