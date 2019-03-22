@@ -26,6 +26,9 @@ function Profile(props) {
                 <div className="col s12 center">
                     <div className="line"></div>
                 </div>
+                <div className="col s12 publicaciones">
+                    <p>Publicaciones</p>
+                </div>
             </div>
             <div className="products-container">
                 <ProductsDisplay

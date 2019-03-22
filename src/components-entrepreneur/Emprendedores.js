@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import 'materialize-css/dist/css/materialize.min.css';
-import './Emprendedores.css'
+// import 'materialize-css/dist/css/materialize.min.css';
+// import './Emprendedores.css'
 import fire from '../components-firebase/Fire';
 
 class Emprendedores extends Component {

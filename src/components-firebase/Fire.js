@@ -11,3 +11,5 @@ const config = {
 const fire = firebase.initializeApp(config);
 
 export default fire;
+
+export const dB = firebase.database();

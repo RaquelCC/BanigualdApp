@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 
 import fire  from './Fire';
 import Login from './Login';
-import Home from './Home';
 
 import './css/login.css';
 
@@ -22,6 +21,7 @@ class Auth extends Component {
     fire.auth().onAuthStateChanged((user) => {
       console.log(user);
       if (user){
+        this.props.getLoggedUser();
         this.setState({ user });
         localStorage.removeItem('user');
       } else {
@@ -34,7 +34,8 @@ class Auth extends Component {
   render() {
     return (
       <div className="Auth">
-        {this.state.user ? (<Home />) : (<Login />)}        
+        {/* {this.state.user ? (<Home />) : (<Login />)}         */}
+        <Login />
       </div>
     );
   }

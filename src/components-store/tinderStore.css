@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+
+.btn-floating{
+    background-color: #7DCA28 !important;
+    text-align: center !important;
+    margin-bottom: 20px !important;
+    height: 56px !important;
+    width: 56px !important;
+}
+.name{
+    color: #0082D8;
+}
+.details{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    width: 361px;
+    height: 58px;
+    left: -1px;
+    top: 105px;
+}
+.title{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 32px;
+color: #ffffff;
+text-align: left;
+margin-top: 0px;
+}
+.value{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: normal;
+letter-spacing: 0.02em;
+text-transform: uppercase;
+color: #FFFFFF;
+text-align: left;
+}
+
+.picture-prod{
+    height: 329px;
+    width:360px;
+}

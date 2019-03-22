@@ -1,10 +1,17 @@
 import React from 'react';
 import './profile.css';
-import ProductsDisplay from './productsDisplay';
+// import ProductsDisplay from './productsDisplay';
 import phoneIcon from '../img/fab call button.png';
+import Card from '../components-store/Card';
 
 function Profile(props) { 
-
+    const cards = props.perfil.productosOServicios.map(item => {
+        return (
+            <Card
+            item={item}
+            />
+        )
+    })
 
     return (
         <div>
@@ -17,8 +24,8 @@ function Profile(props) {
                     <a href={`tel:${props.perfil.contacto.whatsapp}`} ><img className="call-icon" src={phoneIcon} alt="icon"></img></a>
                 </div>
                 <div className="col s12 sub-info-emprendedor center">
-                    <div className="rubro"><p>{props.perfil.rubro}</p></div>
-                    <div className="ciclo"><p>{`Ciclo ${props.perfil.ciclo}`}</p></div>
+                    <div className="rubro3"><p>{props.perfil.rubro}</p></div>
+                    <div className="ciclo3"><p>{`Ciclo ${props.perfil.ciclo}`}</p></div>
                 </div>
                 <div className="col s12">
                     <p className="info-emprendimiento">{props.perfil.infoEmprendimiento}</p>
@@ -26,11 +33,13 @@ function Profile(props) {
                 <div className="col s12 center">
                     <div className="line"></div>
                 </div>
+                <div className="col s12 publicaciones">
+                    <p>Publicaciones</p>
+                </div>
             </div>
             <div className="products-container">
-                <ProductsDisplay
-                    productosOServicios={props.perfil.productosOServicios}
-                />
+
+                {cards}
             </div>
             <div className="row">
                 <div className="col s12">

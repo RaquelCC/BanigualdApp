@@ -30,7 +30,7 @@ class Login extends Component {
         <div id="view-login">
           <div className="container" id="login-box">
             <div>
-              <img src={logo} id="app-logo"/>
+              <img src={logo} id="app-logo" alt="logo"/>
             </div>
 
             <form className="row">
@@ -40,6 +40,7 @@ class Login extends Component {
               <div className="input-field col s12" id="input-pass">
                 <input value={this.state.password} onChange={this.handleChange} type="password" name="password" className="autocomplete" id="pass" placeholder="Contraseña"/>
               </div>
+               {/* eslint-disable-next-line */}
               <a onClick={this.login} id="button-login" className="waves-effect waves-light btn">INGRESAR</a>
             </form>
 

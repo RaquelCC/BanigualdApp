@@ -80,13 +80,13 @@
     padding: 10px 37px;
 }
 
-.rubro3 {
+.rubro {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
     text-align: center;
-    color: #7DCA28;
+    color: #ffffff;
     text-align: center;
     vertical-align: middle;
     border: 2px solid #7DCA28;
@@ -96,26 +96,79 @@
     display: inline-block;
     margin: auto;
     margin-right: 5px;
+    position: relative;
+    top: 231px;
+    z-index: 11;
 }
 
-.ciclo3 {
+.ciclo {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
     text-align: center;
-    color: #0082D8;
+    color: #545454;
     border: 2px solid #0082D8;
     border-radius: 10.5px;
     width: fit-content;
     padding: 1px 5px;
-    display: inline-block;
-    vertical-align: middle;
+    display: block;
+    /* vertical-align: middle; */
     margin: auto;
-    margin-left: 5px;
 }
 
 .sub-info-emprendedor {
     display: flex;
     padding-bottom: 10px !important;
 }
+
+.info-ciclo {
+    color: #292929;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    display: inline;
+    margin: auto !important;
+}
+
+td {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+
+.table-left {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #545454;
+    width: 100%;
+}
+
+.table-right {
+    width: 100%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #545454;
+    text-align: end;
+}
+
+.greenB {
+    color: #7DCA28;
+}
+
+.publicaciones {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #292929;
+}
+
