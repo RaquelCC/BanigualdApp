@@ -1,0 +1,111 @@
+a{
+  color: black
+}
+
+.card.horizontal {
+  display: flex;
+  height: 110px;
+  margin: 1px;
+}
+
+.card.horizontal .card-image img {
+  max-width: 100%;
+  width: 70px;
+  height: 70px;
+  border-radius: 100px;
+}
+
+.card.horizontal .card-image {
+left: 3%;
+top: 20px;
+height: 70px;
+}
+
+.card .card-content {
+  padding: 10px;
+  border-radius: 0 0 2px 2px;
+  text-align: left;
+  position: absolute;
+}
+
+.header{
+  margin: 20px 20px 20px 13px;
+  color: #292929;
+  font-weight: bold;
+
+  font-size: 18px; 
+}
+
+.card.horizontal .card-stacked {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1;
+  flex: 1 1;
+  position: relative;
+}
+
+.card.horizontal .card-stacked .card-content {
+  -webkit-flex-grow: 1;
+  flex-grow: 1;
+  height: 90px;
+  left: 4%;
+  text-overflow: clip;
+}
+
+.ciudad-emprendedor{
+  color: #7DCA28;
+  color: #545454;
+  font-weight: bold;
+}
+
+.nombre-emprendedores{
+  font-weight: bold;
+  font-size: 16px; 
+  width: 100px;
+  color:#292929;
+
+}
+
+.descripcion-emprendedores{
+  font-size: 14px; 
+  overflow: hidden;
+  color: #545454;
+  margin-right: 2px;
+  padding-right: 8px;
+  
+
+}
+
+.descripcion-categoria{
+  color: #545454;
+ /* font-weight: bold; */
+  font-size: 12px;  
+  border: solid #7DCA28 2px;
+  border-radius: 20px;
+  overflow: hidden;
+  font-weight: bold;
+  width: 80px;
+  
+}
+
+.row {
+  margin: 0;
+  overflow: hidden;
+  text-align: text-bottom;
+  display: flex;
+}
+
+.row .col.offset-s4 {
+  margin-left: 0;
+  margin-right: 0px;
+
+  text-align: center;
+}
+
+.row .col.s8 {
+  width: 65%;
+  margin-left: 0;
+  
+}
