@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "c2359385f4651dfbb152",
-    "url": "/BanigualdApp/static/css/main.d9f40121.chunk.css"
+    "revision": "652983462e2524af9ae7",
+    "url": "/BanigualdApp/static/css/main.0a7cc857.chunk.css"
   },
   {
-    "revision": "c2359385f4651dfbb152",
-    "url": "/BanigualdApp/static/js/main.68363643.chunk.js"
+    "revision": "652983462e2524af9ae7",
+    "url": "/BanigualdApp/static/js/main.8eeed953.chunk.js"
   },
   {
     "revision": "c9a67cefcdd6d4657100",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/BanigualdApp/static/media/login.fb0d39c5.png"
   },
   {
-    "revision": "7ed2eb0e73c1d8a6620757c0a3a23d53",
+    "revision": "2223d191ded0e31e7ddc90dd88a876bf",
     "url": "/BanigualdApp/index.html"
   }
 ];

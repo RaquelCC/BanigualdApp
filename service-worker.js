@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/BanigualdApp/precache-manifest.35b46802812fd5f825753ac83565256c.js"
+  "/BanigualdApp/precache-manifest.99a4b1f858173ca34746da80ea31ce24.js"
 );
 
 workbox.clientsClaim();
