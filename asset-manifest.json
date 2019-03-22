@@ -1,5 +1,5 @@
 {
-  "main.css": "/BanigualdApp/static/css/main.0a7cc857.chunk.css",
+  "main.css": "/BanigualdApp/static/css/main.d11bd611.chunk.css",
   "main.js": "/BanigualdApp/static/js/main.8eeed953.chunk.js",
   "main.js.map": "/BanigualdApp/static/js/main.8eeed953.chunk.js.map",
   "runtime~main.js": "/BanigualdApp/static/js/runtime~main.19e062d6.js",
@@ -7,8 +7,8 @@
   "static/js/2.1d0e89c6.chunk.js": "/BanigualdApp/static/js/2.1d0e89c6.chunk.js",
   "static/js/2.1d0e89c6.chunk.js.map": "/BanigualdApp/static/js/2.1d0e89c6.chunk.js.map",
   "index.html": "/BanigualdApp/index.html",
-  "precache-manifest.99a4b1f858173ca34746da80ea31ce24.js": "/BanigualdApp/precache-manifest.99a4b1f858173ca34746da80ea31ce24.js",
+  "precache-manifest.3be06fcb6707507e680c50a2ef4ebbf3.js": "/BanigualdApp/precache-manifest.3be06fcb6707507e680c50a2ef4ebbf3.js",
   "service-worker.js": "/BanigualdApp/service-worker.js",
-  "static/css/main.0a7cc857.chunk.css.map": "/BanigualdApp/static/css/main.0a7cc857.chunk.css.map",
+  "static/css/main.d11bd611.chunk.css.map": "/BanigualdApp/static/css/main.d11bd611.chunk.css.map",
   "static/media/login.css": "/BanigualdApp/static/media/login.fb0d39c5.png"
 }
