@@ -4,9 +4,11 @@
   "private": true,
   "description": "a web app that help Banigualdad fundation ",
   "main": "index.js",
+  "homepage": "https://RaquelCC.github.io/BanigualdApp",
   "dependencies": {
     "firebase": "^5.9.0",
     "firebaseui": "^3.5.2",
+    "gh-pages": "^2.0.1",
     "materialize-css": "^1.0.0-rc.2",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
@@ -22,6 +24,8 @@
     "url": "https://github.com/mpabarca/SCL007-Hackathon-Fundacion-Banigualdad/issues"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
