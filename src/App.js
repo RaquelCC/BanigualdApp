@@ -31,6 +31,7 @@ class App extends Component {
     this.handleMenuChange = this.handleMenuChange.bind(this);
     this.handleClickEmprendedores = this.handleClickEmprendedores.bind(this);
     this.handleClickStore = this.handleClickStore.bind(this);
+    this.logout = this.logout.bind(this);
   }
 
   componentDidMount() {
@@ -80,6 +81,18 @@ class App extends Component {
     })
   }
 
+  logout() {
+    fire.auth().signOut().then(()=> {
+      this.setState({
+        ...this.state,
+        loggedUser: null,
+      })
+    }).catch(function(error) {
+      // An error happened.
+      console.log(error)
+    });
+  }
+
 
   render() {
 
@@ -88,6 +101,7 @@ class App extends Component {
         {this.state.loggedUser &&
           <Header
             onClick={this.handleMenuChange}
+            logout={this.logout}
           />
         }
         {!this.state.loggedUser &&
