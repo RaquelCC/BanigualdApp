@@ -16,17 +16,24 @@
     width: 361px;
     height: 58px;
     left: -1px;
-    top: 105px;
+    /* top: 105px; */
+    z-index: 10;
 }
+
+
+
 .title{
 font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 18px;
-line-height: 32px;
+/* line-height: 32px; */
 color: #ffffff;
 text-align: left;
 margin-top: 0px;
+padding-top: 5px !important;
+margin-bottom: 0px;
+padding-left: 10px;
 }
 .value{
 font-family: 'Roboto', sans-serif;
@@ -38,6 +45,12 @@ letter-spacing: 0.02em;
 text-transform: uppercase;
 color: #FFFFFF;
 text-align: left;
+padding-top: 5px !important;
+margin-top: 0px;
+padding-left: 10px;
+
+
+
 }
 
 .picture-prod{

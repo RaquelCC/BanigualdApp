@@ -8,6 +8,7 @@ function MyProfile(props) {
         return (
             <Card
             item={item}
+            onClick={props.onClick}
             />
         )
     })

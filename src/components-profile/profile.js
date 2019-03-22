@@ -9,6 +9,7 @@ function Profile(props) {
         return (
             <Card
             item={item}
+            onClick={props.onClick}
             />
         )
     })
@@ -28,7 +29,7 @@ function Profile(props) {
                     <div className="ciclo3"><p>{`Ciclo ${props.perfil.ciclo}`}</p></div>
                 </div>
                 <div className="col s12">
-                    <p className="info-emprendimiento">{props.perfil.infoEmprendimiento}</p>
+                    <p className="info-emprendimiento2">{props.perfil.infoEmprendimiento}</p>
                 </div>
                 <div className="col s12 center">
                     <div className="line"></div>

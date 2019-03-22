@@ -3,7 +3,7 @@ import './Card.css';
 
 function Card(props) {
     return (
-        <div className="container">
+        <div className="container" onClick={()=>props.onClick(props.item)}>
             <div className="row">
                 <div className="col s12 m6">
                     <div className="card horizontal">
@@ -13,10 +13,10 @@ function Card(props) {
                         <div className="card-stacked">
                             <div className="card-content">
                                 <div className="tag-contain">
-                                    <button className="btn-small btn-categories">{props.item.rubro}</button>
+                                    <div className="rubro3">{props.item.rubro}</div>
                                 </div>
                                 <p className="description">{props.item.nombreProducto}</p>
-                                <p className="price">{props.item.precio}</p>
+                                <p className="price">$ {props.item.precio}</p>
                             </div>
                             <div className="card-action">
                              {/* eslint-disable-next-line */}

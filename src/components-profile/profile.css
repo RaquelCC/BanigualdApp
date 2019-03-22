@@ -74,9 +74,9 @@
     overflow-x: scroll;
 }
 
-.info-emprendimiento {
+.info-emprendimiento2 {
     color: #292929;
-    text-align: center;
+    text-align: start;
     padding: 10px 37px;
 }
 
@@ -86,7 +86,7 @@
     font-weight: bold;
     font-size: 12px;
     text-align: center;
-    color: #7DCA28;
+    color: #545454;
     text-align: center;
     vertical-align: middle;
     border: 2px solid #7DCA28;
@@ -104,7 +104,7 @@
     font-weight: bold;
     font-size: 12px;
     text-align: center;
-    color: #0082D8;
+    color: #545454;
     border: 2px solid #0082D8;
     border-radius: 10.5px;
     width: fit-content;

@@ -10,7 +10,7 @@ function Header(props) {
                     <a href="#a" className="brand-logo left title" onClick={props.logout}>Banigualdapp</a>
 
                     <ul id="nav-mobile" className="right">
-                        <li><a href="#a"><i className="material-icons right">search</i></a></li>
+                        <li><a href="#a"><i className="material-icons right search-icon">search</i></a></li>
                     </ul>
                 </div>
                 <div className="nav-content">

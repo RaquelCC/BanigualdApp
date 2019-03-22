@@ -78,6 +78,8 @@ class App extends Component {
     this.setState({
       ...this.state,
       showItem: item,
+      showProfile: null,
+      activeMenu: 'store',
     })
   }
 
@@ -111,6 +113,7 @@ class App extends Component {
         {(this.state.loggedUser && this.state.activeMenu === 'myProfile') &&
           <MyProfile
             perfil={this.state.loggedUser}
+            onClick={this.handleClickStore}
           />
         }
         {(this.state.loggedUser && this.state.activeMenu === 'entrepreneur') &&
@@ -123,6 +126,7 @@ class App extends Component {
         {(this.state.loggedUser && this.state.showProfile) &&
           <Profile
             perfil={this.state.showProfile}
+            onClick={this.handleClickStore}
           />
         }
         {(this.state.loggedUser && this.state.activeMenu === 'calendar') &&

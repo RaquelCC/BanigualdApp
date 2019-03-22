@@ -5,6 +5,7 @@
     font-size: 20px;
     font-weight: 500;
     font-style: normal;
+    padding-top: 20px !important;
 
 }
 .nav-extended{
@@ -28,4 +29,8 @@
 }
 .nav-extended{
     width: 100%;
+}
+
+.search-icon {
+    padding-top: 11px !important;
 }
